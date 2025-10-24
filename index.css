@@ -1,0 +1,126 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap');
+
+* {
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Nunito", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+}
+
+.body {
+    width: 100vh;
+}
+
+.navbar {
+    display: flex;
+    padding: 10px;
+    justify-content: space-between;
+    background-color: #fafaf8;
+}
+
+.brandLogo .logo {
+    width: 120px;
+    cursor: pointer;
+}
+
+.navs {
+    display: flex;
+    justify-content: center;
+}
+
+.navs-container {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+
+.nav-items {
+    list-style: none;
+}
+
+.nav-items a {
+    text-decoration: none;
+    color: #000;
+    font-weight: 500;
+}
+
+.nav-items .nav-links:hover {
+    color: #87ceeb;
+    border-radius: 15px;
+    background-color: #fff;
+    font-weight: bold;
+}
+
+.users {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    cursor: pointer;
+}
+
+.users .userImg {
+    width: 50px;
+    border-radius: 50%;
+}
+
+.users .userName {
+    font-weight: 600;
+}
+
+.hero {
+    padding: 50px 20px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.leftDiv .titleText {
+    color: #000;
+}
+
+.leftDiv .titleText .customWord {
+    border-radius: 50%;
+    background-color: #054f6d;
+    color: #fff;
+    padding: 5px;
+}
+
+.leftDiv article h1 {
+    margin-top: 10px;
+    color: #1cb2ee;
+}
+
+.leftDiv .desText {
+    text-align: justify;
+    margin-top: 5px;
+    font-size: 20px;
+}
+
+.leftDiv .bookBtn {
+    background-color: #1cb2ee;
+    color: #fff;
+    outline: none;
+    border: none;
+    border-radius: 10px;
+    font-size: 16px;
+    font-weight: bold;
+    padding: 15px;
+    margin-top: 30px;
+    cursor: pointer;
+}
+
+.laundryImage {
+    width: 400px;
+}
+
+footer {
+    background-color: #000;
+    color: #7e7979;
+    text-align: center;
+    padding: 20px;
+}
+
+footer .copyright a {
+    text-decoration: none;
+    color: #87ceeb;
+}
